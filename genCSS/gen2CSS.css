@@ -108,11 +108,13 @@ main article p {
 
 #mapPage {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 
 #mapPage p {
 	color: white;
+	text-align: center;
+	margin: 2% 5% 2% 10em;
 }
 
 #gMap {
@@ -120,4 +122,9 @@ main article p {
 	margin: auto;
 	width: 90%;
 	height: 90%;
+}
+
+#mapPage a:hover {
+	color: rgba(230, 230, 230, 0.5);
+}
 }
